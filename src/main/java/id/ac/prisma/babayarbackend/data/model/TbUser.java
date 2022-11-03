@@ -1,4 +1,4 @@
-package id.ac.prisma.siapmobilebackend.data.model;
+package id.ac.prisma.babayarbackend.data.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

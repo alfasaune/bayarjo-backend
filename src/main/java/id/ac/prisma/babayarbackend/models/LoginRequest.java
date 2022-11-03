@@ -1,4 +1,4 @@
-package id.ac.prisma.siapmobilebackend.models;
+package id.ac.prisma.babayarbackend.models;
 
 public class LoginRequest {
     String email;
