@@ -1,4 +1,4 @@
-package id.ac.prisma.babayarbackend.data.model;
+package id.ac.prisma.bayarjobackend.data.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

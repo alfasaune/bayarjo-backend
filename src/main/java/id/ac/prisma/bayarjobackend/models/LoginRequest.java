@@ -1,4 +1,4 @@
-package id.ac.prisma.babayarbackend.models;
+package id.ac.prisma.bayarjobackend.models;
 
 public class LoginRequest {
     String email;

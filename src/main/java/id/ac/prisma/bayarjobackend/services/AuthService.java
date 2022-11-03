@@ -1,4 +1,4 @@
-package id.ac.prisma.babayarbackend.services;
+package id.ac.prisma.bayarjobackend.services;
 
 public class AuthService {
     public boolean emailAndPasswordValidation(String email, String password) {

@@ -1,6 +1,6 @@
-package id.ac.prisma.babayarbackend.data.repo;
+package id.ac.prisma.bayarjobackend.data.repo;
 
-import id.ac.prisma.babayarbackend.data.model.TbUser;
+import id.ac.prisma.bayarjobackend.data.model.TbUser;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;
