@@ -21,8 +21,8 @@ public class PaymentController {
 
 
         Map response = new HashMap();
-        response.put("status", "Pembayaran sedang berlangsung");
-        response.put("message", "Transaksi Sukses");
+        response.put("status", "Transaksi Sukses");
+        response.put("message", "Pembayaran sedang berlangsung");
         return response;
     }
 }
