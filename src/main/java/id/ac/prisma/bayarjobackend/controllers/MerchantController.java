@@ -1,7 +1,6 @@
 package id.ac.prisma.bayarjobackend.controllers;
 
 import id.ac.prisma.bayarjobackend.data.model.TbMerchant;
-import id.ac.prisma.bayarjobackend.data.model.TbUser;
 import id.ac.prisma.bayarjobackend.data.repo.TbMerchantRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

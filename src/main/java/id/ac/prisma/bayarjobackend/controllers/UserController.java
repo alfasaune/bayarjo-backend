@@ -2,6 +2,7 @@ package id.ac.prisma.bayarjobackend.controllers;
 
 import id.ac.prisma.bayarjobackend.data.model.TbUser;
 import id.ac.prisma.bayarjobackend.data.repo.TbUserRepository;
+import id.ac.prisma.bayarjobackend.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,6 +16,17 @@ public class UserController {
 
     @Autowired
     TbUserRepository tbUserRepository;
+
+    @Autowired
+    UserService userService;
+
+    @RequestMapping(value = "/all-user", method = RequestMethod.GET, produces = "application/json")
+    public Map getAllUser() {
+        Map response = new HashMap();
+        response.put("message", "success");
+        response.put("data", tbUserRepository.findAll());
+        return response;
+    }
 
     @RequestMapping(value = "/by-id/{id}", method = RequestMethod.GET, produces = "application/json")
     public Map getUserById(@PathVariable("id") Integer id) {
